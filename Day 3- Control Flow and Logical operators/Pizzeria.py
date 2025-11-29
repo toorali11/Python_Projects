@@ -35,4 +35,6 @@ if che =="y":
     price+=1
 
     print(f"You final bill will be {price} $ ")
-
+    
+input("Press Enter to exit...")
+    
