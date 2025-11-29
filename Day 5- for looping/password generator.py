@@ -67,3 +67,4 @@ for char in list:
     password+=char
   
 print(f"This is your generated password: {password}")
+input("Press Enter to exit...")
