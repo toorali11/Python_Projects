@@ -104,3 +104,6 @@ elif a==2 and b==0:
 
 elif a==2 and b==1:
     print("Computer wins")    
+    
+input("Press Enter to exit...")
+    
