@@ -60,7 +60,8 @@ for x in range(0,b):
 for y in range(0,c):
     passss=symbols[y]
     list.append(passss) 
-
+    
+random.shuffle(list)
 password=""
 for char in list:
     password+=char
