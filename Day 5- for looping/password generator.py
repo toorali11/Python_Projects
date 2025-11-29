@@ -13,18 +13,9 @@ import random
 # =============================================================================
 # Defining the lists
 # =============================================================================
-letters = [
-    'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z',
-    'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'
-]
-
-numbers = ['0','1','2','3','4','5','6','7','8','9']
-
-symbols = [
-    '!','@','#','$','%','^','&','*','(',')',
-    '-','_','=','+','[',']','{','}',';',':',
-    ',', '.', '<','>','?','/','\\','|','~'
-]
+letters = list("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
+numbers = list("0123456789")
+symbols = list("!@#$%^&*()-_=+[]{};:,.<>?/|\\~")
 
 print(len(symbols))
 # =============================================================================
@@ -39,21 +30,20 @@ random.shuffle(symbols)
 # =============================================================================
 print("Welcome to the Password Generator")
 
-a=int(input("How many letters would you like in your password?"))
-b=int(input("How many numbers would you like in your password?"))
-c=int(input("How many symbols would you like in your password?"))
+while True:
+    a = int(input(f"Please enter range for letter from 0 to {len(letters)}: "))
+    if 0 <= a <= len(letters):
+        break  
+    
+while True:
+    b = int(input(f"Please enter range for numbers from 0 to {len(numbers)}: "))
+    if 0 <= b <= len(numbers):
+        break     
 
-# =============================================================================
-# Condition without while loop
-# =============================================================================
-if  a>(len(letters)):
-        a=int(input("The range is 0-52 for letters: "))
-        
-elif b>(len(numbers)):
-    b=int(input("The range is 0-10 for numbers: ")) 
-
-elif c>(len(symbols)):
-    b=int(input("The range is 0-29 for symbol: "))        
+while True:
+    c = int(input(f"Please enter range for symbols from 0 to {len(symbols)}: "))
+    if 0 <= c <= len(numbers):
+        break    
          
 # =============================================================================
 # for loop and list appending    
@@ -75,4 +65,5 @@ for y in range(0,c):
 password=""
 for char in list:
     password+=char
+  
 print(f"This is your generated password: {password}")
