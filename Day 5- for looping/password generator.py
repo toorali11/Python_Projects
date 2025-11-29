@@ -17,7 +17,6 @@ letters = list("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
 numbers = list("0123456789")
 symbols = list("!@#$%^&*()-_=+[]{};:,.<>?/|\\~")
 
-print(len(symbols))
 # =============================================================================
 # Shuffling the list
 # =============================================================================
