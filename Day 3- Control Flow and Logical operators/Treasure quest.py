@@ -77,4 +77,7 @@ if a=="l":
         print("Attacked by trout. GAME OVER...")
 else:
     print("You fall into a hole :( GAME OVER...")
+
+input("Press Enter to exit...")
+    
               
