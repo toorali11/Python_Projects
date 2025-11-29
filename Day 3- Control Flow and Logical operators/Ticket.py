@@ -37,3 +37,5 @@ if h>120:
         print(f"The total bill will be {b}")
 else:
     print("Cant ride")
+
+input("Press Enter to exit...")
