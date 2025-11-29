@@ -41,7 +41,7 @@ while True:
 
 while True:
     c = int(input(f"Please enter range for symbols from 0 to {len(symbols)}: "))
-    if 0 <= c <= len(numbers):
+    if 0 <= c <= len(symbols):
         break    
          
 # =============================================================================
