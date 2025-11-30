@@ -221,8 +221,9 @@ lives = 6
 while True:
     guess_word = ""
     display = ""  
-    guess = input("Please type a letter: ").lower()
+    print()
     print("++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+    guess = input("Please type a letter: ").lower()
     print("++++++++++++++++++++++++++++++++++++++++++++++++++++++")
     # Track all wrong guesses
     if guess not in random_words:
@@ -245,7 +246,7 @@ while True:
     # Show output
     print()
     print(display)    
-    print("\n")
+    print()
     print("Wrong guessed letters:", " ".join(wrong_guesses))
     print()
 
