@@ -211,35 +211,8 @@ for letters in random_words:
 print(placeholder)    
 
 # =============================================================================
-# for loop with condition
+# looping with condition
 # =============================================================================
-
-# correct_word=[]
-# all_words=[]
-# lives=6
-# while True:
-#     guess_word=""
-#     display=""  
-#     guess=input("Please type a letter: ").lower()
-#     all_words.append(guess)
-#     for letters in random_words:
-#         if letters==guess:
-#             display+=guess
-#             correct_word.append(guess)
-
-#         elif letters in correct_word:
-#             display+=letters
-
-#         elif letters in all_words:
-#             guess_word+=letters
-            
-#         else:
-#             display+=" _ "
-    
-#     print()
-#     print("\n")      # also adds one empty line     
-#     print(display)
-#     print(guess_word)
 
 correct_word = []
 wrong_guesses = []
