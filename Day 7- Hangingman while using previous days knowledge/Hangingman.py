@@ -16,22 +16,22 @@ import random
 
 words = [
     "apple", "banana", "orange", "grape", "melon",
-    "python", "java", "variable", "function", "integer",
+    "python", "java",
     "guitar", "piano", "drums", "violin", "trumpet",
-    "river", "mountain", "forest", "desert", "ocean",
+    "river", "forest", "desert", "ocean",
     "castle", "village", "bridge", "harbor", "caravan",
-    "battery", "charger", "keyboard", "monitor", "laptop",
+    "battery", "charger", "monitor", "laptop",
     "dragon", "wizard", "potion", "castle", "dagger",
     "shadow", "crystal", "ember", "harvest", "whisper",
-    "quantum", "gravity", "particle", "neutron", "photon",
-    "strategy", "victory", "challenge", "mystery", "fortune",
-    "triangle", "circle", "diamond", "polygon", "horizon",
-    "anchor", "compass", "harpoon", "lantern", "parachute",
-    "asteroid", "galaxy", "nebula", "comet", "satellite"
+    "quantum", "gravity", "neutron", "photon",
+    "victory", "mystery", "fortune",
+    "circle", "diamond", "polygon", "horizon",
+    "anchor", "compass", "harpoon", "lantern",
+    "galaxy", "nebula", "comet"
 ]
 
+
 random_words=random.choice(words)
-print(random_words)
 
 # =============================================================================
 # ASCII Hangingman
@@ -127,6 +127,9 @@ while True:
             
         else:
             display+=" _ "
+    
+    print()
+    print("\n")      # also adds one empty line     
     print(display)    
         
     if " _ " not in display:
