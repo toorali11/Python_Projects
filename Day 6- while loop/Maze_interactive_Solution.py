@@ -13,26 +13,26 @@ Created on Sat Nov 29 16:08:43 2025
 # =============================================================================
 # Solution
 # =============================================================================
-def turn_right():
-    turn_left()
-    turn_left()
-    turn_left()
+# def turn_right():
+#     turn_left()
+#     turn_left()
+#     turn_left()
 
-while not at_goal():
-    for i in range (3):
-        if at_goal():
-            done()
-        elif right_is_clear():    
-             turn_right()
-             move()   
-        elif wall_in_front():
-             turn_left()
+# while not at_goal():
+#     for i in range (3):
+#         if at_goal():
+#             done()
+#         elif right_is_clear():    
+#              turn_right()
+#              move()   
+#         elif wall_in_front():
+#              turn_left()
 
-        elif wall_on_right():
-             move()
-        else:
-            move()
+#         elif wall_on_right():
+#              move()
+#         else:
+#             move()
         
     
-
+print("remove # if you wanna test it")
  
