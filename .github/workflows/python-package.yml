@@ -37,4 +37,6 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pytest --ignore="Day 6- while loop" || echo "No tests found, skipping"
+        pytest --ignore="Day 6- while loop/Maze_interactive_Solution.py"
+
+        
