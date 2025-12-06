@@ -20,10 +20,15 @@
 ☕ &nbsp; Coffee==Good Mood
 ```
 coffee=str(input("How you like your coffee?")).lower()
+
 while True:
   if coffee=="perfectly brewed":  
     print("AMAZING DAY")
     break
+
+  else:
+      print("Type next time: Perfectly Brewed ")
+      break
 ```
 
 
