@@ -42,5 +42,8 @@ href="https://visualstudio.microsoft.com" target="_blank" rel="noreferrer"> <img
 
 
 
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=toorali11&" />
+</p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=toorali11&" /></p>
+
