@@ -22,5 +22,7 @@ def is_leap_year(year):
 
     print(f"The {year} is a leap year")
 
-   
-is_leap_year(1700)   
+a=int(input("Type year to check if it is leapyear: "))  
+is_leap_year(a)
+
+input("press any key to exit...")
