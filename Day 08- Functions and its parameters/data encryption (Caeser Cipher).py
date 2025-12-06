@@ -10,6 +10,7 @@ def encrypt(original_text, shift_amount):
 #     importing module
 # =============================================================================
     import string
+    
     alphabets = list(string.ascii_letters)
 # =============================================================================
 #     converting list to string and compare alphabets to original_text
@@ -65,9 +66,13 @@ while True:
         decrypt(a,b)
 
     run_again=input("Type yes if you wanna go again otherwise type no: ").lower()
-
+    while run_again not in ("yes", "no"):
+        print("invalid")
+        run_again=input("yes or no: ")
+        
     if run_again=="yes":
-        print()
+        from os import system
+        system("cls")
     elif run_again=="no":
          break
 
