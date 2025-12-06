@@ -74,6 +74,7 @@ while True:
 # =============================================================================
 highest_bidder(main_dictionary) #import the custom made module
 
+input("press any key to exit..")
 
 
 
