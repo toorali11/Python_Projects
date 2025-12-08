@@ -17,9 +17,9 @@ print(r'''
 | |\  | (_) | |_| | | | | | | |_) |  __/ | |  __/ | |__| | |_| |  __/\__ \__ \ 
 |_| \_|\___/ \__,_|_| |_| |_|_.__/ \___|_|  \___|  \_____|\__,_|\___||___/___/ 
                                                                                
-                  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+                  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
                   | N U M B E R   G U E S S I N G |
-                  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+                  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 
                  Guess the secret number (if you dare!)
 
@@ -36,9 +36,9 @@ print(r'''
 
 print("I am thinkng a number from 0 to 100")
 # Global variables
-number=random.randint(1, 100)
+# number=random.randint(1, 100)
 difficulty=input("Choose a difficulty: Type Easy or Hard? ").strip().lower()
-
+number=20
 # Ensuring the user input
 while difficulty not in ("easy","hard"):
     print("Invalid command")
@@ -69,7 +69,7 @@ def winning_conditions(a,b):
         return "Too High"
     
     elif a in range (b-12, b-6):
-        return "Too High"
+        return "Too Low"
         
     else:
         return("keep guessing") 
