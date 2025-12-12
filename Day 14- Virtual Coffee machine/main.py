@@ -44,31 +44,7 @@ def rest_money(a,b):
 # import modules
 # =============================================================================
 from Menu_resources import MENU, resources
-
-logo=r"""
-
-       ______________________________________
-      |                                      |
-      |  ________________________________    |
-      | |          COFFEE MACHINE        |   |
-      | |--------------------------------|   |
-      | |  [1] LATTE      [2] ESPRESSO   |   |
-      | |         [3] CAPPUCCINO         |   |
-      | |--------------------------------|   |
-      | |   SELECT YOUR DRINK BELOW      |   |
-      | |________________________________|   |
-      |                                      |
-      |   ________________________________   |
-      |  |          DISPENSING...        |   |
-      |  |_______________________________|   |
-      |                                      |
-      |       _______          _______       |
-      |      |       |        |       |      |
-      |      | CUP   |        | TRAY  |      |
-      |      |_______|        |_______|      |
-      |______________________________________|
-
-"""
+from pictures import logo, capi, espr, lat 
 
 print(logo)
 # =============================================================================
@@ -113,13 +89,13 @@ while True:
             break
         
         # Asking for money
-        
+        print("\n")
         cost=MENU[choice]["cost"]
         print(f"The price for a drink is: {cost}$")
-        print("\n")
         print("Please insert the coins")  
         insert=ask_coins()
         print(rest_money(insert, cost))
+        print(espr)
         
    
     elif choice=="latte":
@@ -140,13 +116,13 @@ while True:
                 turnoff=input("Worker is there?")
             break
         
+        print("\n")
         cost=MENU[choice]["cost"]
         print(f"The price for a drink is: {cost}$")
-        print("\n")
         print("Please insert the coins")  
         insert=ask_coins()
         print(rest_money(insert, cost))
-        
+        print(lat)
   
             
     elif choice=="cappuccino":
@@ -167,12 +143,13 @@ while True:
                 turnoff=input("Worker is there?")
             break
         
+        print("\n")
         cost=MENU[choice]["cost"]
         print(f"The price for a drink is: {cost}$")
-        print("\n")
         print("Please insert the coins")  
         insert=ask_coins()     
         print(rest_money(insert, cost))
+        print(capi)
             
 input("press any key to exit...")
             
