@@ -46,9 +46,11 @@ while True:
 href="https://visualstudio.microsoft.com" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" alt="MS VS Code" width="60" height="50"/> </a> </p>
 
 
-
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=toorali11&" />
 </p>
+
+</a> <p align="center">
+ <img src="https://camo.githubusercontent.com/17b1bf7c151bb32a86e6e90f8e6b419a5bc9c066754471dc528bd56c42d90422/68747470733a2f2f63617073756c652d72656e6465722e76657263656c2e6170702f6170693f747970653d776176696e6726636f6c6f723d6772616469656e74266865696768743d36302673656374696f6e3d666f6f746572" width="1100" height="200"/> </a> </p>
 
 
