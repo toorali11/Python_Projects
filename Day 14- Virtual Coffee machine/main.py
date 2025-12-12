@@ -39,7 +39,7 @@ def rest_money(a,b):
     elif a>b:
         rest=a-b
         return(f"Here is your change:{rest: .2f}\n")
-    
+profit= 0   
 # =============================================================================
 # import modules
 # =============================================================================
@@ -68,6 +68,7 @@ while True:
         for key in resources:
             a=resources[key]
             print(f"{key}: {a}ml")
+        print(f"The profit is: {profit}$\n")
     
     # conditional code if espresso got selected
     elif choice=="espresso":
@@ -78,14 +79,14 @@ while True:
         c_i=ing["coffee"]
         
         #updating and checkinf if resources available
-        if w_r>w_i and c_r>c_i:
+        if w_r>=w_i and c_r>=c_i:
             resources["water"]=w_r-w_i
             resources["coffee"]=c_r-c_i
             
         else:
-            turnoff=input("Please fill up the machine for further use")
+            turnoff=input("Please fill up the machine for further use ")
             while turnoff!="turn off":
-                turnoff=input("Worker is there?")
+                turnoff=input("Worker is there? ")
             break
         
         # Asking for money
@@ -96,6 +97,7 @@ while True:
         insert=ask_coins()
         print(rest_money(insert, cost))
         print(espr)
+        profit+=cost
         
    
     elif choice=="latte":
@@ -105,15 +107,15 @@ while True:
         m_i=ing["milk"]
         c_i=ing["coffee"]
         
-        if w_r>w_i and m_r>m_i and c_r>c_i:
+        if w_r>=w_i and m_r>=m_i and c_r>=c_i:
             resources["water"]=w_r-w_i
             resources["milk"]=m_r-m_i
             resources["coffee"]=c_r-c_i
             
         else:
-            turnoff=input("Please fill up the machine for further use")
+            turnoff=input("Please fill up the machine for further use ")
             while turnoff!="turn off":
-                turnoff=input("Worker is there?")
+                turnoff=input("Worker is there? ")
             break
         
         print("\n")
@@ -123,6 +125,7 @@ while True:
         insert=ask_coins()
         print(rest_money(insert, cost))
         print(lat)
+        profit+=cost
   
             
     elif choice=="cappuccino":
@@ -132,15 +135,15 @@ while True:
         m_i=ing["milk"]
         c_i=ing["coffee"]
         
-        if w_r>w_i and m_r>m_i and c_r>c_i:
+        if w_r>=w_i and m_r>=m_i and c_r>=c_i:
             resources["water"]=w_r-w_i
             resources["milk"]=m_r-m_i
             resources["coffee"]=c_r-c_i
         
         else:
-            turnoff=input("Please fill up the machine for further use")
+            turnoff=input("Please fill up the machine for further use ")
             while turnoff!="turn off":
-                turnoff=input("Worker is there?")
+                turnoff=input("Worker is there? ")
             break
         
         print("\n")
@@ -150,7 +153,9 @@ while True:
         insert=ask_coins()     
         print(rest_money(insert, cost))
         print(capi)
-            
+        profit+=cost
+
+print("\n")
 input("press any key to exit...")
             
             
