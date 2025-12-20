@@ -45,9 +45,8 @@ while True:
                                                                                                                                                                                                                       href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52e1aaddc86.gif" alt="git" width="100" height="100"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://media.tenor.com/5IWFYb4D1WMAAAAj/swan-hack-dab.gif" alt="linux" width="60" height="60"/> </a> <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://i.imgur.com/InAE1pO.png" alt="matlab" width="55" height="55"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://i.imgur.com/ISHMGti.png" alt="pandas" width="40" height="50"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHNxMW5mdWI3ZjN4aDR6MDRlb3owd2tsYmxraWQ2azc1NGlrbXdtNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/RN8823qBqr7skYHkks/giphy.gif" alt="photoshop" width="60" height="60"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" alt="python" width="50" height="50"/>  </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="50" height="50"/> </a> <a
 href="https://visualstudio.microsoft.com" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" alt="MS VS Code" width="60" height="50"/> </a> </p>
 
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=toorali11&" />
+</a> <p align="center">
+  <img src="https://streak-stats.demolab.com?user=toorali11&theme=dark&border_radius=4.6"/> </a>
 </p>
 
 </a> <p align="center">
